@@ -1,0 +1,6 @@
+framework module Pods_PSSOSMT {
+  umbrella header "Pods-PSSOSMT-umbrella.h"
+
+  export *
+  module * { export * }
+}

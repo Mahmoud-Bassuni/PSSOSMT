@@ -3,27 +3,160 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		192CE403236CE75B0044A510 /* LocaleManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192CE402236CE75B0044A510 /* LocaleManager.swift */; };
+		192CE405236CEA670044A510 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 192CE404236CEA670044A510 /* CustomImageView.swift */; };
+		19403B87236C7868004E698F /* OrderListVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19403B86236C7868004E698F /* OrderListVM.swift */; };
+		19403B89236C7E5F004E698F /* OrderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19403B88236C7E5F004E698F /* OrderModel.swift */; };
+		195119DA236B732100CCDDF7 /* UIVew+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195119D9236B732100CCDDF7 /* UIVew+Extension.swift */; };
+		195119DE236B760100CCDDF7 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195119DD236B760100CCDDF7 /* LoginVC.swift */; };
+		195119E0236B761A00CCDDF7 /* OrderListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195119DF236B761A00CCDDF7 /* OrderListVC.swift */; };
+		195119E2236B762F00CCDDF7 /* OrderTVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195119E1236B762F00CCDDF7 /* OrderTVC.swift */; };
+		195119E5236B797A00CCDDF7 /* BindingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195119E4236B797A00CCDDF7 /* BindingTextField.swift */; };
+		195119E8236B7A0400CCDDF7 /* CustomeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195119E7236B7A0400CCDDF7 /* CustomeButton.swift */; };
+		195119EA236B7A7B00CCDDF7 /* CustomeUITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195119E9236B7A7B00CCDDF7 /* CustomeUITextField.swift */; };
+		195F6391236C44410088EC8B /* SoundManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195F6390236C44410088EC8B /* SoundManagement.swift */; };
+		195F6393236C57CB0088EC8B /* LoginVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195F6392236C57CB0088EC8B /* LoginVM.swift */; };
+		195F6395236C58CB0088EC8B /* BaseViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195F6394236C58CB0088EC8B /* BaseViewModel.swift */; };
+		195F6398236C5D090088EC8B /* BaseViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195F6397236C5D090088EC8B /* BaseViewModelProtocol.swift */; };
+		195F639A236C5D9B0088EC8B /* DispatchQueueHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195F6399236C5D9B0088EC8B /* DispatchQueueHelper.swift */; };
+		195F639C236C62600088EC8B /* LoginModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195F639B236C62600088EC8B /* LoginModel.swift */; };
+		195F639E236C64DE0088EC8B /* Extension+UIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 195F639D236C64DE0088EC8B /* Extension+UIViewController.swift */; };
 		196167B7236B13E500482D6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196167B6236B13E500482D6B /* AppDelegate.swift */; };
 		196167B9236B13E500482D6B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196167B8236B13E500482D6B /* SceneDelegate.swift */; };
-		196167BB236B13E500482D6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196167BA236B13E500482D6B /* ViewController.swift */; };
+		196167BB236B13E500482D6B /* SplashVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196167BA236B13E500482D6B /* SplashVC.swift */; };
 		196167BE236B13E500482D6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196167BC236B13E500482D6B /* Main.storyboard */; };
 		196167C0236B13E900482D6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 196167BF236B13E900482D6B /* Assets.xcassets */; };
 		196167C3236B13E900482D6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 196167C1236B13E900482D6B /* LaunchScreen.storyboard */; };
+		196D2BB2236B801B00ABF219 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196D2BB1236B801B00ABF219 /* UITextField+Extension.swift */; };
+		198C0EC1236BAE8C00A07D8E /* CustomeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198C0EC0236BAE8C00A07D8E /* CustomeUIView.swift */; };
+		198C0EC3236BB02C00A07D8E /* Global Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198C0EC2236BB02C00A07D8E /* Global Functions.swift */; };
+		198C0EC5236BB07300A07D8E /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198C0EC4236BB07300A07D8E /* EndPoint.swift */; };
+		198C0EC7236BB0D200A07D8E /* NetworkAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198C0EC6236BB0D200A07D8E /* NetworkAdapter.swift */; };
+		198C0EC9236BB10900A07D8E /* TeaBoyEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 198C0EC8236BB10900A07D8E /* TeaBoyEnum.swift */; };
+		198E9046236C26E700957B31 /* piano-composition-40-46458.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 198E9045236C26E700957B31 /* piano-composition-40-46458.mp3 */; };
+		199D38D4236B16E100DA715C /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 199D38D2236B16E100DA715C /* Interface.storyboard */; };
+		199D38D6236B16E300DA715C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 199D38D5236B16E300DA715C /* Assets.xcassets */; };
+		199D38DD236B16E300DA715C /* PssosmtWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 199D38DC236B16E300DA715C /* PssosmtWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		199D38E2236B16E300DA715C /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199D38E1236B16E300DA715C /* InterfaceController.swift */; };
+		199D38E4236B16E300DA715C /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199D38E3236B16E300DA715C /* ExtensionDelegate.swift */; };
+		199D38E6236B16E300DA715C /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 199D38E5236B16E300DA715C /* NotificationController.swift */; };
+		199D38E8236B16E400DA715C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 199D38E7236B16E400DA715C /* Assets.xcassets */; };
+		199D38ED236B16E400DA715C /* Tea Boy.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 199D38D0236B16E100DA715C /* Tea Boy.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		199D38F7236B1EE700DA715C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 199D38F6236B1EE700DA715C /* GoogleService-Info.plist */; };
+		19C33EE1236DCE5F0099681D /* voicepiano-composition-40-46458.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 19C33EE0236DCE5E0099681D /* voicepiano-composition-40-46458.mp3 */; };
+		19C33EE3236DCE860099681D /* voice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 19C33EE2236DCE860099681D /* voice.mp3 */; };
+		19C33EE5236DDECF0099681D /* piano-composition-40-46458.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 19C33EE4236DDECF0099681D /* piano-composition-40-46458.mp3 */; };
+		2720332C1AC42EF50EC6DA7F /* Pods_PssosmtWatch.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E35A33D837787EF93C83281 /* Pods_PssosmtWatch.framework */; };
+		84B778FB5106109304263E9D /* Pods_PSSOSMT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42FFB87486C00D3EBAB4CA9 /* Pods_PSSOSMT.framework */; };
+		9D995FC3B39860D5A0C6AA08 /* Pods_PssosmtWatch_Extension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62C85EDE81D01A580BB09BA3 /* Pods_PssosmtWatch_Extension.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		199D38DE236B16E300DA715C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 196167AB236B13E400482D6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 199D38DB236B16E300DA715C;
+			remoteInfo = "PssosmtWatch Extension";
+		};
+		199D38EB236B16E400DA715C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 196167AB236B13E400482D6B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 199D38CF236B16E100DA715C;
+			remoteInfo = PssosmtWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		199D38F1236B16E400DA715C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				199D38DD236B16E300DA715C /* PssosmtWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199D38F5236B16E400DA715C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				199D38ED236B16E400DA715C /* Tea Boy.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
-		196167B3236B13E400482D6B /* PSSOSMT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PSSOSMT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		192CE402236CE75B0044A510 /* LocaleManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocaleManager.swift; sourceTree = "<group>"; };
+		192CE404236CEA670044A510 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
+		19403B86236C7868004E698F /* OrderListVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListVM.swift; sourceTree = "<group>"; };
+		19403B88236C7E5F004E698F /* OrderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModel.swift; sourceTree = "<group>"; };
+		195119D9236B732100CCDDF7 /* UIVew+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVew+Extension.swift"; sourceTree = "<group>"; };
+		195119DD236B760100CCDDF7 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		195119DF236B761A00CCDDF7 /* OrderListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderListVC.swift; sourceTree = "<group>"; };
+		195119E1236B762F00CCDDF7 /* OrderTVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTVC.swift; sourceTree = "<group>"; };
+		195119E4236B797A00CCDDF7 /* BindingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BindingTextField.swift; sourceTree = "<group>"; };
+		195119E7236B7A0400CCDDF7 /* CustomeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeButton.swift; sourceTree = "<group>"; };
+		195119E9236B7A7B00CCDDF7 /* CustomeUITextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeUITextField.swift; sourceTree = "<group>"; };
+		195F6390236C44410088EC8B /* SoundManagement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundManagement.swift; sourceTree = "<group>"; };
+		195F6392236C57CB0088EC8B /* LoginVM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVM.swift; sourceTree = "<group>"; };
+		195F6394236C58CB0088EC8B /* BaseViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModel.swift; sourceTree = "<group>"; };
+		195F6397236C5D090088EC8B /* BaseViewModelProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseViewModelProtocol.swift; sourceTree = "<group>"; };
+		195F6399236C5D9B0088EC8B /* DispatchQueueHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchQueueHelper.swift; sourceTree = "<group>"; };
+		195F639B236C62600088EC8B /* LoginModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginModel.swift; sourceTree = "<group>"; };
+		195F639D236C64DE0088EC8B /* Extension+UIViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+UIViewController.swift"; sourceTree = "<group>"; };
+		196167B3236B13E400482D6B /* Tea Boy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tea Boy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		196167B6236B13E500482D6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		196167B8236B13E500482D6B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		196167BA236B13E500482D6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		196167BA236B13E500482D6B /* SplashVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashVC.swift; sourceTree = "<group>"; };
 		196167BD236B13E500482D6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		196167BF236B13E900482D6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		196167C2236B13E900482D6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		196167C4236B13E900482D6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		196D2BB1236B801B00ABF219 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		198C0EC0236BAE8C00A07D8E /* CustomeUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomeUIView.swift; sourceTree = "<group>"; };
+		198C0EC2236BB02C00A07D8E /* Global Functions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Global Functions.swift"; sourceTree = "<group>"; };
+		198C0EC4236BB07300A07D8E /* EndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		198C0EC6236BB0D200A07D8E /* NetworkAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAdapter.swift; sourceTree = "<group>"; };
+		198C0EC8236BB10900A07D8E /* TeaBoyEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeaBoyEnum.swift; sourceTree = "<group>"; };
+		198E9045236C26E700957B31 /* piano-composition-40-46458.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "piano-composition-40-46458.mp3"; sourceTree = "<group>"; };
+		199D38D0236B16E100DA715C /* Tea Boy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tea Boy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		199D38D3236B16E100DA715C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		199D38D5236B16E300DA715C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		199D38D7236B16E300DA715C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		199D38DC236B16E300DA715C /* PssosmtWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "PssosmtWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		199D38E1236B16E300DA715C /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		199D38E3236B16E300DA715C /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		199D38E5236B16E300DA715C /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		199D38E7236B16E400DA715C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		199D38E9236B16E400DA715C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		199D38EA236B16E400DA715C /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		199D38F6236B1EE700DA715C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		199D38F8236B209D00DA715C /* PSSOSMT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PSSOSMT.entitlements; sourceTree = "<group>"; };
+		19C33EDF236DBCFD0099681D /* PssosmtWatch Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "PssosmtWatch Extension.entitlements"; sourceTree = "<group>"; };
+		19C33EE0236DCE5E0099681D /* voicepiano-composition-40-46458.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "voicepiano-composition-40-46458.mp3"; sourceTree = "<group>"; };
+		19C33EE2236DCE860099681D /* voice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = voice.mp3; sourceTree = "<group>"; };
+		19C33EE4236DDECF0099681D /* piano-composition-40-46458.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "piano-composition-40-46458.mp3"; sourceTree = "<group>"; };
+		1E35A33D837787EF93C83281 /* Pods_PssosmtWatch.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PssosmtWatch.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2520E3C10CF95133055A01DD /* Pods-PssosmtWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PssosmtWatch.debug.xcconfig"; path = "Target Support Files/Pods-PssosmtWatch/Pods-PssosmtWatch.debug.xcconfig"; sourceTree = "<group>"; };
+		40AF39FF9B73913CC80992F6 /* Pods-PssosmtWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PssosmtWatch.release.xcconfig"; path = "Target Support Files/Pods-PssosmtWatch/Pods-PssosmtWatch.release.xcconfig"; sourceTree = "<group>"; };
+		4F574AE7B890CF9E133627F8 /* Pods-PssosmtWatch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PssosmtWatch Extension.release.xcconfig"; path = "Target Support Files/Pods-PssosmtWatch Extension/Pods-PssosmtWatch Extension.release.xcconfig"; sourceTree = "<group>"; };
+		62C85EDE81D01A580BB09BA3 /* Pods_PssosmtWatch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PssosmtWatch_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C3EDC48781606B5533F62D7 /* Pods-PSSOSMT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSSOSMT.debug.xcconfig"; path = "Target Support Files/Pods-PSSOSMT/Pods-PSSOSMT.debug.xcconfig"; sourceTree = "<group>"; };
+		A30BEBDBC697AB182BD61818 /* Pods-PssosmtWatch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PssosmtWatch Extension.debug.xcconfig"; path = "Target Support Files/Pods-PssosmtWatch Extension/Pods-PssosmtWatch Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		BC275D3ED4ED9E3515E721DA /* Pods-PSSOSMT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PSSOSMT.release.xcconfig"; path = "Target Support Files/Pods-PSSOSMT/Pods-PSSOSMT.release.xcconfig"; sourceTree = "<group>"; };
+		F42FFB87486C00D3EBAB4CA9 /* Pods_PSSOSMT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PSSOSMT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,24 +164,92 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84B778FB5106109304263E9D /* Pods_PSSOSMT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199D38D9236B16E300DA715C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D995FC3B39860D5A0C6AA08 /* Pods_PssosmtWatch_Extension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A103617BBE0D18C6C1E8A1AC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2720332C1AC42EF50EC6DA7F /* Pods_PssosmtWatch.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		192CE401236CE73A0044A510 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				192CE402236CE75B0044A510 /* LocaleManager.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		195119D8236B72E900CCDDF7 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				195119D9236B732100CCDDF7 /* UIVew+Extension.swift */,
+				196D2BB1236B801B00ABF219 /* UITextField+Extension.swift */,
+				195F639D236C64DE0088EC8B /* Extension+UIViewController.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		195119E3236B796B00CCDDF7 /* Binding */ = {
+			isa = PBXGroup;
+			children = (
+				195119E4236B797A00CCDDF7 /* BindingTextField.swift */,
+			);
+			path = Binding;
+			sourceTree = "<group>";
+		};
+		195119E6236B79EF00CCDDF7 /* CustomeControls */ = {
+			isa = PBXGroup;
+			children = (
+				195119E7236B7A0400CCDDF7 /* CustomeButton.swift */,
+				195119E9236B7A7B00CCDDF7 /* CustomeUITextField.swift */,
+				198C0EC0236BAE8C00A07D8E /* CustomeUIView.swift */,
+				192CE404236CEA670044A510 /* CustomImageView.swift */,
+			);
+			path = CustomeControls;
+			sourceTree = "<group>";
+		};
+		195F6396236C5CDF0088EC8B /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				195F6397236C5D090088EC8B /* BaseViewModelProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
 		196167AA236B13E400482D6B = {
 			isa = PBXGroup;
 			children = (
 				196167B5236B13E400482D6B /* PSSOSMT */,
+				199D38D1236B16E100DA715C /* PssosmtWatch */,
+				199D38E0236B16E300DA715C /* PssosmtWatch Extension */,
 				196167B4236B13E400482D6B /* Products */,
+				421BBC67FA05B4996609645F /* Pods */,
+				2C189CE6DDE57C9DEDB9ECBF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
 		196167B4236B13E400482D6B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				196167B3236B13E400482D6B /* PSSOSMT.app */,
+				196167B3236B13E400482D6B /* Tea Boy.app */,
+				199D38D0236B16E100DA715C /* Tea Boy.app */,
+				199D38DC236B16E300DA715C /* PssosmtWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -56,15 +257,168 @@
 		196167B5236B13E400482D6B /* PSSOSMT */ = {
 			isa = PBXGroup;
 			children = (
-				196167B6236B13E500482D6B /* AppDelegate.swift */,
-				196167B8236B13E500482D6B /* SceneDelegate.swift */,
-				196167BA236B13E500482D6B /* ViewController.swift */,
-				196167BC236B13E500482D6B /* Main.storyboard */,
-				196167BF236B13E900482D6B /* Assets.xcassets */,
-				196167C1236B13E900482D6B /* LaunchScreen.storyboard */,
+				19C33EE4236DDECF0099681D /* piano-composition-40-46458.mp3 */,
+				19C33EE0236DCE5E0099681D /* voicepiano-composition-40-46458.mp3 */,
+				192CE401236CE73A0044A510 /* Localization */,
+				199D38F8236B209D00DA715C /* PSSOSMT.entitlements */,
 				196167C4236B13E900482D6B /* Info.plist */,
+				199D38F6236B1EE700DA715C /* GoogleService-Info.plist */,
+				199D3900236B347C00DA715C /* View Model */,
+				199D38FF236B347400DA715C /* View */,
+				199D38FE236B346B00DA715C /* Utilities */,
+				199D38FD236B346000DA715C /* Service */,
+				199D38FC236B345600DA715C /* Model */,
+				199D38FB236B344C00DA715C /* Application */,
+				199D38FA236B343D00DA715C /* Assets */,
 			);
 			path = PSSOSMT;
+			sourceTree = "<group>";
+		};
+		199D38D1236B16E100DA715C /* PssosmtWatch */ = {
+			isa = PBXGroup;
+			children = (
+				199D38D2236B16E100DA715C /* Interface.storyboard */,
+				199D38D5236B16E300DA715C /* Assets.xcassets */,
+				199D38D7236B16E300DA715C /* Info.plist */,
+			);
+			path = PssosmtWatch;
+			sourceTree = "<group>";
+		};
+		199D38E0236B16E300DA715C /* PssosmtWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				19C33EE2236DCE860099681D /* voice.mp3 */,
+				19C33EDF236DBCFD0099681D /* PssosmtWatch Extension.entitlements */,
+				198E9045236C26E700957B31 /* piano-composition-40-46458.mp3 */,
+				199D38E1236B16E300DA715C /* InterfaceController.swift */,
+				199D38E3236B16E300DA715C /* ExtensionDelegate.swift */,
+				199D38E5236B16E300DA715C /* NotificationController.swift */,
+				199D38E7236B16E400DA715C /* Assets.xcassets */,
+				199D38E9236B16E400DA715C /* Info.plist */,
+				199D38EA236B16E400DA715C /* PushNotificationPayload.apns */,
+				195F6390236C44410088EC8B /* SoundManagement.swift */,
+			);
+			path = "PssosmtWatch Extension";
+			sourceTree = "<group>";
+		};
+		199D38FA236B343D00DA715C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				196167BF236B13E900482D6B /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		199D38FB236B344C00DA715C /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				196167B6236B13E500482D6B /* AppDelegate.swift */,
+				196167B8236B13E500482D6B /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		199D38FC236B345600DA715C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				195F639B236C62600088EC8B /* LoginModel.swift */,
+				19403B88236C7E5F004E698F /* OrderModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		199D38FD236B346000DA715C /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				198C0EC4236BB07300A07D8E /* EndPoint.swift */,
+				198C0EC6236BB0D200A07D8E /* NetworkAdapter.swift */,
+				198C0EC8236BB10900A07D8E /* TeaBoyEnum.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		199D38FE236B346B00DA715C /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				195F6396236C5CDF0088EC8B /* Protocols */,
+				195119E6236B79EF00CCDDF7 /* CustomeControls */,
+				195119E3236B796B00CCDDF7 /* Binding */,
+				195119D8236B72E900CCDDF7 /* Extension */,
+				198C0EC2236BB02C00A07D8E /* Global Functions.swift */,
+				195F6399236C5D9B0088EC8B /* DispatchQueueHelper.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		199D38FF236B347400DA715C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				199D3903236B34B300DA715C /* Cell */,
+				199D3902236B34AC00DA715C /* Storyboard */,
+				199D3901236B34A400DA715C /* View Controller */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		199D3900236B347C00DA715C /* View Model */ = {
+			isa = PBXGroup;
+			children = (
+				195F6392236C57CB0088EC8B /* LoginVM.swift */,
+				195F6394236C58CB0088EC8B /* BaseViewModel.swift */,
+				19403B86236C7868004E698F /* OrderListVM.swift */,
+			);
+			path = "View Model";
+			sourceTree = "<group>";
+		};
+		199D3901236B34A400DA715C /* View Controller */ = {
+			isa = PBXGroup;
+			children = (
+				196167BA236B13E500482D6B /* SplashVC.swift */,
+				195119DD236B760100CCDDF7 /* LoginVC.swift */,
+				195119DF236B761A00CCDDF7 /* OrderListVC.swift */,
+			);
+			path = "View Controller";
+			sourceTree = "<group>";
+		};
+		199D3902236B34AC00DA715C /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				196167BC236B13E500482D6B /* Main.storyboard */,
+				196167C1236B13E900482D6B /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		199D3903236B34B300DA715C /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				195119E1236B762F00CCDDF7 /* OrderTVC.swift */,
+			);
+			name = Cell;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		2C189CE6DDE57C9DEDB9ECBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F42FFB87486C00D3EBAB4CA9 /* Pods_PSSOSMT.framework */,
+				1E35A33D837787EF93C83281 /* Pods_PssosmtWatch.framework */,
+				62C85EDE81D01A580BB09BA3 /* Pods_PssosmtWatch_Extension.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		421BBC67FA05B4996609645F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C3EDC48781606B5533F62D7 /* Pods-PSSOSMT.debug.xcconfig */,
+				BC275D3ED4ED9E3515E721DA /* Pods-PSSOSMT.release.xcconfig */,
+				2520E3C10CF95133055A01DD /* Pods-PssosmtWatch.debug.xcconfig */,
+				40AF39FF9B73913CC80992F6 /* Pods-PssosmtWatch.release.xcconfig */,
+				A30BEBDBC697AB182BD61818 /* Pods-PssosmtWatch Extension.debug.xcconfig */,
+				4F574AE7B890CF9E133627F8 /* Pods-PssosmtWatch Extension.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,18 +428,59 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 196167C7236B13E900482D6B /* Build configuration list for PBXNativeTarget "PSSOSMT" */;
 			buildPhases = (
+				722AD5728EE8EE5BD3A82D6A /* [CP] Check Pods Manifest.lock */,
 				196167AF236B13E400482D6B /* Sources */,
 				196167B0236B13E400482D6B /* Frameworks */,
 				196167B1236B13E400482D6B /* Resources */,
+				199D38F5236B16E400DA715C /* Embed Watch Content */,
+				5041092A3C53AC64A3E58CEF /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				199D38EC236B16E400DA715C /* PBXTargetDependency */,
+			);
+			name = PSSOSMT;
+			productName = PSSOSMT;
+			productReference = 196167B3236B13E400482D6B /* Tea Boy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		199D38CF236B16E100DA715C /* PssosmtWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 199D38F2236B16E400DA715C /* Build configuration list for PBXNativeTarget "PssosmtWatch" */;
+			buildPhases = (
+				AEFA06403EA50A78A8C81183 /* [CP] Check Pods Manifest.lock */,
+				199D38CE236B16E100DA715C /* Resources */,
+				199D38F1236B16E400DA715C /* Embed App Extensions */,
+				A103617BBE0D18C6C1E8A1AC /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				199D38DF236B16E300DA715C /* PBXTargetDependency */,
+			);
+			name = PssosmtWatch;
+			productName = PssosmtWatch;
+			productReference = 199D38D0236B16E100DA715C /* Tea Boy.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		199D38DB236B16E300DA715C /* PssosmtWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 199D38EE236B16E400DA715C /* Build configuration list for PBXNativeTarget "PssosmtWatch Extension" */;
+			buildPhases = (
+				A873118E8F6D3E370EB9C20B /* [CP] Check Pods Manifest.lock */,
+				199D38D8236B16E300DA715C /* Sources */,
+				199D38D9236B16E300DA715C /* Frameworks */,
+				199D38DA236B16E300DA715C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = PSSOSMT;
-			productName = PSSOSMT;
-			productReference = 196167B3236B13E400482D6B /* PSSOSMT.app */;
-			productType = "com.apple.product-type.application";
+			name = "PssosmtWatch Extension";
+			productName = "PssosmtWatch Extension";
+			productReference = 199D38DC236B16E300DA715C /* PssosmtWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -98,6 +493,12 @@
 				ORGANIZATIONNAME = futureface;
 				TargetAttributes = {
 					196167B2236B13E400482D6B = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					199D38CF236B16E100DA715C = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					199D38DB236B16E300DA715C = {
 						CreatedOnToolsVersion = 11.1;
 					};
 				};
@@ -116,6 +517,8 @@
 			projectRoot = "";
 			targets = (
 				196167B2236B13E400482D6B /* PSSOSMT */,
+				199D38CF236B16E100DA715C /* PssosmtWatch */,
+				199D38DB236B16E300DA715C /* PssosmtWatch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -126,25 +529,180 @@
 			buildActionMask = 2147483647;
 			files = (
 				196167C3236B13E900482D6B /* LaunchScreen.storyboard in Resources */,
+				199D38F7236B1EE700DA715C /* GoogleService-Info.plist in Resources */,
+				19C33EE1236DCE5F0099681D /* voicepiano-composition-40-46458.mp3 in Resources */,
 				196167C0236B13E900482D6B /* Assets.xcassets in Resources */,
 				196167BE236B13E500482D6B /* Main.storyboard in Resources */,
+				19C33EE5236DDECF0099681D /* piano-composition-40-46458.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199D38CE236B16E100DA715C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199D38D6236B16E300DA715C /* Assets.xcassets in Resources */,
+				199D38D4236B16E100DA715C /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199D38DA236B16E300DA715C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19C33EE3236DCE860099681D /* voice.mp3 in Resources */,
+				199D38E8236B16E400DA715C /* Assets.xcassets in Resources */,
+				198E9046236C26E700957B31 /* piano-composition-40-46458.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5041092A3C53AC64A3E58CEF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PSSOSMT/Pods-PSSOSMT-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-PSSOSMT/Pods-PSSOSMT-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-PSSOSMT/Pods-PSSOSMT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		722AD5728EE8EE5BD3A82D6A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PSSOSMT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A873118E8F6D3E370EB9C20B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PssosmtWatch Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AEFA06403EA50A78A8C81183 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PssosmtWatch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		196167AF236B13E400482D6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				196167BB236B13E500482D6B /* ViewController.swift in Sources */,
+				195119E2236B762F00CCDDF7 /* OrderTVC.swift in Sources */,
+				195F639C236C62600088EC8B /* LoginModel.swift in Sources */,
+				198C0EC9236BB10900A07D8E /* TeaBoyEnum.swift in Sources */,
+				195119DA236B732100CCDDF7 /* UIVew+Extension.swift in Sources */,
+				196167BB236B13E500482D6B /* SplashVC.swift in Sources */,
+				196D2BB2236B801B00ABF219 /* UITextField+Extension.swift in Sources */,
+				195F6395236C58CB0088EC8B /* BaseViewModel.swift in Sources */,
+				195119EA236B7A7B00CCDDF7 /* CustomeUITextField.swift in Sources */,
+				195F639E236C64DE0088EC8B /* Extension+UIViewController.swift in Sources */,
+				195119E5236B797A00CCDDF7 /* BindingTextField.swift in Sources */,
+				195119E8236B7A0400CCDDF7 /* CustomeButton.swift in Sources */,
+				195F639A236C5D9B0088EC8B /* DispatchQueueHelper.swift in Sources */,
+				198C0EC7236BB0D200A07D8E /* NetworkAdapter.swift in Sources */,
+				192CE403236CE75B0044A510 /* LocaleManager.swift in Sources */,
+				198C0EC3236BB02C00A07D8E /* Global Functions.swift in Sources */,
 				196167B7236B13E500482D6B /* AppDelegate.swift in Sources */,
 				196167B9236B13E500482D6B /* SceneDelegate.swift in Sources */,
+				19403B89236C7E5F004E698F /* OrderModel.swift in Sources */,
+				192CE405236CEA670044A510 /* CustomImageView.swift in Sources */,
+				195F6398236C5D090088EC8B /* BaseViewModelProtocol.swift in Sources */,
+				195119DE236B760100CCDDF7 /* LoginVC.swift in Sources */,
+				19403B87236C7868004E698F /* OrderListVM.swift in Sources */,
+				195119E0236B761A00CCDDF7 /* OrderListVC.swift in Sources */,
+				198C0EC5236BB07300A07D8E /* EndPoint.swift in Sources */,
+				198C0EC1236BAE8C00A07D8E /* CustomeUIView.swift in Sources */,
+				195F6393236C57CB0088EC8B /* LoginVM.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		199D38D8236B16E300DA715C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				199D38E6236B16E300DA715C /* NotificationController.swift in Sources */,
+				199D38E4236B16E300DA715C /* ExtensionDelegate.swift in Sources */,
+				195F6391236C44410088EC8B /* SoundManagement.swift in Sources */,
+				199D38E2236B16E300DA715C /* InterfaceController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		199D38DF236B16E300DA715C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 199D38DB236B16E300DA715C /* PssosmtWatch Extension */;
+			targetProxy = 199D38DE236B16E300DA715C /* PBXContainerItemProxy */;
+		};
+		199D38EC236B16E400DA715C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 199D38CF236B16E100DA715C /* PssosmtWatch */;
+			targetProxy = 199D38EB236B16E400DA715C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		196167BC236B13E500482D6B /* Main.storyboard */ = {
@@ -161,6 +719,14 @@
 				196167C2236B13E900482D6B /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		199D38D2236B16E100DA715C /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				199D38D3236B16E100DA715C /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -282,17 +848,21 @@
 		};
 		196167C8236B13E900482D6B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6C3EDC48781606B5533F62D7 /* Pods-PSSOSMT.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PSSOSMT/PSSOSMT.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3S7QTLA8PT;
 				INFOPLIST_FILE = PSSOSMT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 5;
 				PRODUCT_BUNDLE_IDENTIFIER = futureface.PSSOSMT;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tea Boy";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -300,19 +870,115 @@
 		};
 		196167C9236B13E900482D6B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC275D3ED4ED9E3515E721DA /* Pods-PSSOSMT.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = PSSOSMT/PSSOSMT.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3S7QTLA8PT;
 				INFOPLIST_FILE = PSSOSMT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 5;
 				PRODUCT_BUNDLE_IDENTIFIER = futureface.PSSOSMT;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Tea Boy";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		199D38EF236B16E400DA715C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A30BEBDBC697AB182BD61818 /* Pods-PssosmtWatch Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "PssosmtWatch Extension/PssosmtWatch Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S7QTLA8PT;
+				INFOPLIST_FILE = "PssosmtWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 5;
+				PRODUCT_BUNDLE_IDENTIFIER = futureface.PSSOSMT.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		199D38F0236B16E400DA715C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F574AE7B890CF9E133627F8 /* Pods-PssosmtWatch Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "PssosmtWatch Extension/PssosmtWatch Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S7QTLA8PT;
+				INFOPLIST_FILE = "PssosmtWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 5;
+				PRODUCT_BUNDLE_IDENTIFIER = futureface.PSSOSMT.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Release;
+		};
+		199D38F3236B16E400DA715C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2520E3C10CF95133055A01DD /* Pods-PssosmtWatch.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S7QTLA8PT;
+				IBSC_MODULE = PssosmtWatch_Extension;
+				INFOPLIST_FILE = PssosmtWatch/Info.plist;
+				MARKETING_VERSION = 5;
+				PRODUCT_BUNDLE_IDENTIFIER = futureface.PSSOSMT.watchkitapp;
+				PRODUCT_NAME = "Tea Boy";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
+			};
+			name = Debug;
+		};
+		199D38F4236B16E400DA715C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40AF39FF9B73913CC80992F6 /* Pods-PssosmtWatch.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 3S7QTLA8PT;
+				IBSC_MODULE = PssosmtWatch_Extension;
+				INFOPLIST_FILE = PssosmtWatch/Info.plist;
+				MARKETING_VERSION = 5;
+				PRODUCT_BUNDLE_IDENTIFIER = futureface.PSSOSMT.watchkitapp;
+				PRODUCT_NAME = "Tea Boy";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 6.0;
 			};
 			name = Release;
 		};
@@ -333,6 +999,24 @@
 			buildConfigurations = (
 				196167C8236B13E900482D6B /* Debug */,
 				196167C9236B13E900482D6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		199D38EE236B16E400DA715C /* Build configuration list for PBXNativeTarget "PssosmtWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D38EF236B16E400DA715C /* Debug */,
+				199D38F0236B16E400DA715C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		199D38F2236B16E400DA715C /* Build configuration list for PBXNativeTarget "PssosmtWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				199D38F3236B16E400DA715C /* Debug */,
+				199D38F4236B16E400DA715C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

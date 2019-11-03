@@ -1,0 +1,6 @@
+framework module Pods_PssosmtWatch {
+  umbrella header "Pods-PssosmtWatch-umbrella.h"
+
+  export *
+  module * { export * }
+}
